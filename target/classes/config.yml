@@ -1,0 +1,66 @@
+# ========================================
+# CONFIGURAÇÃO DO PLUGIN SUPER PODERES
+# ========================================
+
+# Configurações dos Poderes
+poderes:
+  voar:
+    habilitado: true
+    cooldown: 5
+  invisibilidade:
+    habilitado: true
+    duracao: 300
+  velocidade:
+    max_nivel: 10
+  raio:
+    dano: 5.0
+  explosao:
+    max_forca: 5.0
+  superforca:
+    multiplicador: 2.0
+  escudo:
+    reducao_dano: 0.5
+  telecinese:
+    alcance: 10
+  clone:
+    duracao: 30
+  meteorito:
+    dano: 10.0
+  tempestade:
+    duracao: 60
+  portal:
+    duracao: 120
+  resurreicao:
+    cooldown: 300
+  superjump:
+    multiplicador: 5.0
+
+# Configurações de Eventos
+eventos:
+  drop_diamante_chance: 0.15
+  drop_esmeralda_chance: 0.20
+  mob_especial_chance: 0.05
+  tempestade_magica_chance: 0.30
+
+# Configurações de Mensagens
+mensagens:
+  prefixo: "§6[SuperPoderes] "
+  boas_vindas: "§aBem-vindo ao servidor com Super Poderes!"
+  poder_ativado: "§aPoder ativado com sucesso!"
+  poder_desativado: "§cPoder desativado!"
+  sem_permissao: "§cVocê não tem permissão para usar este poder!"
+  jogador_nao_encontrado: "§cJogador não encontrado!"
+  cooldown: "§cAguarde {tempo} segundos para usar novamente!"
+
+# Configurações de Efeitos
+efeitos:
+  particulas:
+    habilitado: true
+  sons:
+    habilitado: true
+  raio:
+    particulas: 50
+  explosao:
+    particulas: 100
+  portal:
+    particulas: 200 
